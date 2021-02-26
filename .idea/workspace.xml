@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a68dd511-37b5-4fda-a811-84397b96dba1" name="Default Changelist" comment="edit home page">
+    <list default="true" id="a68dd511-37b5-4fda-a811-84397b96dba1" name="Default Changelist" comment="update navbar admin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/menu.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614237927660</updated>
       <workItem from="1614237931107" duration="1033000" />
-      <workItem from="1614324946147" duration="1040000" />
+      <workItem from="1614324946147" duration="1871000" />
     </task>
     <task id="LOCAL-00001" summary="edit home page">
       <created>1614238275427</created>
@@ -62,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614325204666</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update navbar admin">
+      <created>1614328359149</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614328359149</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +91,7 @@
     <MESSAGE value="edit home page" />
     <MESSAGE value="add oder" />
     <MESSAGE value="add user,manage user" />
-    <option name="LAST_COMMIT_MESSAGE" value="add user,manage user" />
+    <MESSAGE value="update navbar admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="update navbar admin" />
   </component>
 </project>
