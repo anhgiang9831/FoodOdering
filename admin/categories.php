@@ -9,12 +9,12 @@
 			<form action="" id="manage-category">
 				<div class="card">
 					<div class="card-header">
-						    Category Form
+						    Thông tin danh mục
 				  	</div>
 					<div class="card-body">
 							<input type="hidden" name="id">
 							<div class="form-group">
-								<label class="control-label">Category</label>
+								<label class="control-label">Danh mục</label>
 								<input type="text" class="form-control" name="name">
 							</div>
 							
@@ -23,8 +23,8 @@
 					<div class="card-footer">
 						<div class="row">
 							<div class="col-md-12">
-								<button class="btn btn-sm btn-primary col-sm-3 offset-md-3"> Save</button>
-								<button class="btn btn-sm btn-default col-sm-3" type="button" onclick="$('#manage-category').get(0).reset()"> Cancel</button>
+								<button class="btn btn-sm btn-primary col-sm-3 offset-md-3"> Lưu</button>
+								<button class="btn btn-sm btn-default col-sm-3" type="button" onclick="$('#manage-category').get(0).reset()"> Hủy</button>
 							</div>
 						</div>
 					</div>
@@ -40,9 +40,9 @@
 						<table class="table table-bordered table-hover">
 							<thead>
 								<tr>
-									<th class="text-center">#</th>
-									<th class="text-center">Name</th>
-									<th class="text-center">Action</th>
+									<th class="text-center">STT</th>
+									<th class="text-center">Tên</th>
+									<th class="text-center">Hành động</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -57,8 +57,8 @@
 										<?php echo $row['name'] ?>
 									</td>
 									<td class="text-center">
-										<button class="btn btn-sm btn-primary edit_cat" type="button" data-id="<?php echo $row['id'] ?>" data-name="<?php echo $row['name'] ?>" >Edit</button>
-										<button class="btn btn-sm btn-danger delete_cat" type="button" data-id="<?php echo $row['id'] ?>">Delete</button>
+										<button class="btn btn-sm btn-primary edit_cat" type="button" data-id="<?php echo $row['id'] ?>" data-name="<?php echo $row['name'] ?>" >Sửa</button>
+										<button class="btn btn-sm btn-danger delete_cat" type="button" data-id="<?php echo $row['id'] ?>">Xóa</button>
 									</td>
 								</tr>
 								<?php endwhile; ?>
