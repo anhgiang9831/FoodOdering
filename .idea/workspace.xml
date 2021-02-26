@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a68dd511-37b5-4fda-a811-84397b96dba1" name="Default Changelist" comment="edit home page">
-      <change afterPath="$PROJECT_DIR$/admin/manage_user.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/users.php" afterDir="false" />
-    </list>
+    <list default="true" id="a68dd511-37b5-4fda-a811-84397b96dba1" name="Default Changelist" comment="edit home page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +36,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614237927660</updated>
       <workItem from="1614237931107" duration="1033000" />
+      <workItem from="1614324946147" duration="853000" />
     </task>
     <task id="LOCAL-00001" summary="edit home page">
       <created>1614238275427</created>
@@ -47,7 +45,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614238275427</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add oder">
+      <created>1614325135019</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614325135019</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add user,manage user">
+      <created>1614325204666</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614325204666</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,9 +75,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="edit home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit home page" />
+    <MESSAGE value="add oder" />
+    <MESSAGE value="add user,manage user" />
+    <option name="LAST_COMMIT_MESSAGE" value="add user,manage user" />
   </component>
 </project>
