@@ -13,7 +13,7 @@ if($qry->num_rows > 0){
 		<div class="card-body">
 			<form action="" id="manage-settings">
 				<div class="form-group">
-					<label for="name" class="control-label">System Name</label>
+					<label for="name" class="control-label">Tên hệ thống</label>
 					<input type="text" class="form-control" id="name" name="name" value="<?php echo isset($meta['hotel_name']) ? $meta['hotel_name'] : '' ?>" required>
 				</div>
 				<div class="form-group">
@@ -21,23 +21,23 @@ if($qry->num_rows > 0){
 					<input type="email" class="form-control" id="email" name="email" value="<?php echo isset($meta['email']) ? $meta['email'] : '' ?>" required>
 				</div>
 				<div class="form-group">
-					<label for="contact" class="control-label">Contact</label>
+					<label for="contact" class="control-label">Liên hệ</label>
 					<input type="text" class="form-control" id="contact" name="contact" value="<?php echo isset($meta['contact']) ? $meta['contact'] : '' ?>" required>
 				</div>
 				<div class="form-group">
-					<label for="about" class="control-label">About Content</label>
+					<label for="about" class="control-label">Nội dung thông tin</label>
 					<textarea name="about" class="text-jqte"><?php echo isset($meta['about_content']) ? $meta['about_content'] : '' ?></textarea>
 
 				</div>
 				<div class="form-group">
-					<label for="" class="control-label">Image</label>
+					<label for="" class="control-label">Hình ảnh nền</label>
 					<input type="file" class="form-control" name="img" onchange="displayImg(this,$(this))">
 				</div>
 				<div class="form-group">
 					<img src="<?php echo isset($meta['cover_img']) ? '../assets/img/'.$meta['cover_img'] :'' ?>" alt="" id="cimg">
 				</div>
 				<center>
-					<button class="btn btn-info btn-primary btn-block col-md-2">Save</button>
+					<button class="btn btn-info btn-primary btn-block col-md-2">Lưu lại</button>
 				</center>
 			</form>
 		</div>
