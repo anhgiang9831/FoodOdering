@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a68dd511-37b5-4fda-a811-84397b96dba1" name="Default Changelist" comment="update navbar admin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/categories.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/manage_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/manage_user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614237927660</updated>
       <workItem from="1614237931107" duration="1033000" />
-      <workItem from="1614324946147" duration="3981000" />
+      <workItem from="1614324946147" duration="4777000" />
     </task>
     <task id="LOCAL-00001" summary="edit home page">
       <created>1614238275427</created>
