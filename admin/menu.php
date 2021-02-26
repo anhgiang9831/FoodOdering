@@ -72,10 +72,10 @@
 						<table class="table table-bordered table-hover">
 							<thead>
 								<tr>
-									<th class="text-center">#</th>
-									<th class="text-center">Img</th>
-									<th class="text-center">Room</th>
-									<th class="text-center">Action</th>
+									<th class="text-center">STT</th>
+									<th class="text-center">Hình ảnh</th>
+									<th class="text-center">Thông tin</th>
+									<th class="text-center">Hành Động</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -92,13 +92,13 @@
 										<img src="<?php echo isset($row['img_path']) ? '../assets/img/'.$row['img_path'] :'' ?>" alt="" id="cimg">
 									</td>
 									<td class="">
-										<p>Name : <b><?php echo $row['name'] ?></b></p>
-										<p>Description : <b class="truncate"><?php echo $row['description'] ?></b></p>
-										<p>Price : <b><?php echo "$".number_format($row['price'],2) ?></b></p>
+										<p>Tên : <b><?php echo $row['name'] ?></b></p>
+										<p>Giới thiệu : <b class="truncate"><?php echo $row['description'] ?></b></p>
+										<p>Giá : <b><?php echo "$".number_format($row['price'],2) ?></b></p>
 									</td>
 									<td class="text-center">
-										<button class="btn btn-sm btn-primary edit_menu" type="button" data-id="<?php echo $row['id'] ?>" data-name="<?php echo $row['name'] ?>" data-status="<?php echo $row['status'] ?>" data-description="<?php echo $row['description'] ?>" data-price="<?php echo $row['price'] ?>" data-img_path="<?php echo $row['img_path'] ?>">Edit</button>
-										<button class="btn btn-sm btn-danger delete_menu" type="button" data-id="<?php echo $row['id'] ?>">Delete</button>
+										<button class="btn btn-sm btn-primary edit_menu" type="button" data-id="<?php echo $row['id'] ?>" data-name="<?php echo $row['name'] ?>" data-status="<?php echo $row['status'] ?>" data-description="<?php echo $row['description'] ?>" data-price="<?php echo $row['price'] ?>" data-img_path="<?php echo $row['img_path'] ?>">Sửa</button>
+										<button class="btn btn-sm btn-danger delete_menu" type="button" data-id="<?php echo $row['id'] ?>">Xóa</button>
 									</td>
 								</tr>
 								<?php endwhile; ?>
@@ -113,6 +113,9 @@
 
 </div>
 <style>
+    div.row{
+        margin-top: 25px;
+    }
 	img#cimg,.cimg{
 		max-height: 10vh;
 		max-width: 6vw;

@@ -5,13 +5,13 @@
 		<thead>
 			 <tr>
 
-			<th>#</th>
-			<th>Name</th>
-			<th>Address</th>
+			<th>STT</th>
+			<th>Tên khách hàng</th>
+			<th>Địa chỉ</th>
 			<th>Email</th>
-			<th>Mobile</th>
-			<th>Status</th>
-			<th></th>
+			<th>Số điện thoại</th>
+			<th>Trạng thái</th>
+			<th>Hàng động</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -28,12 +28,12 @@
 			 		<td><?php echo $row['email'] ?></td>
 			 		<td><?php echo $row['mobile'] ?></td>
 			 		<?php if($row['status'] == 1): ?>
-			 			<td class="text-center"><span class="badge badge-success">Confirmed</span></td>
+			 			<td class="text-center"><span class="badge badge-success">Đã xác nhận</span></td>
 			 		<?php else: ?>
-			 			<td class="text-center"><span class="badge badge-secondary">For Verification</span></td>
+			 			<td class="text-center"><span class="badge badge-secondary">Chưa xác nhận</span></td>
 			 		<?php endif; ?>
 			 		<td>
-			 			<button class="btn btn-sm btn-primary view_order" data-id="<?php echo $row['id'] ?>" >View Order</button>
+			 			<button class="btn btn-sm btn-primary view_order" data-id="<?php echo $row['id'] ?>" >Xem chi tiết</button>
 			 		</td>
 			 </tr>
 			<?php endwhile; ?>

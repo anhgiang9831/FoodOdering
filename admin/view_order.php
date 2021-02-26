@@ -3,9 +3,9 @@
 	<table class="table table-bordered">
 		<thead>
 			<tr>
-				<th>Qty</th>
-				<th>Order</th>
-				<th>Amount</th>
+				<th>Số lượng</th>
+				<th>Đặt hàng</th>
+				<th>Số tiền</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -25,15 +25,15 @@
 		</tbody>
 		<tfoot>
 			<tr>
-				<th colspan="2" class="text-right">TOTAL</th>
+				<th colspan="2" class="text-right">Tổng tiền</th>
 				<th ><?php echo number_format($total,2) ?></th>
 			</tr>
 
 		</tfoot>
 	</table>
 	<div class="text-center">
-		<button class="btn btn-primary" id="confirm" type="button" onclick="confirm_order()">Confirm</button>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		<button class="btn btn-primary" id="confirm" type="button" onclick="confirm_order()">Xác nhận</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
 
 	</div>
 </div>
