@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a68dd511-37b5-4fda-a811-84397b96dba1" name="Default Changelist" comment="edit home page" />
+    <list default="true" id="a68dd511-37b5-4fda-a811-84397b96dba1" name="Default Changelist" comment="edit home page">
+      <change afterPath="$PROJECT_DIR$/admin/manage_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/users.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
